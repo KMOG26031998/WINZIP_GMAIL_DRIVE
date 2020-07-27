@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_blue_dark"
+        android:minHeight="?attr/actionBarSize" />
+    <group android:id="@+id/grp_Read">
+        <item
+            android:id="@+id/item_a"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_inbox_24"
+            android:title="Todas las bandejas" />
+    </group>
+    <group android:id="@+id/grp_Watch">
+        <item
+            android:id="@+id/item_b"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_all_inbox_24"
+            android:title="Principal" />
+        <item
+            android:id="@+id/item_c"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_supervisor_account_24"
+            android:title="Social" />
+        <item
+            android:id="@+id/item_d"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_local_offer_24"
+            android:title="Promociones" />
+        <item android:title="TODAS LAS ETIQUETAS">
+        <menu>
+        <item
+            android:id="@+id/item_e"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_star_border_24"
+            android:title="Destacados" />
+        <item
+            android:id="@+id/item_f"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_access_time_24"
+            android:title="Pospuestos" />
+        <item
+            android:id="@+id/Item_l"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_label_important_24"
+            android:title="Importantes" />
+        <item
+            android:id="@+id/item_g"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_send_24"
+            android:title="Enviados" />
+        <item
+            android:id="@+id/item_h"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_layers_24"
+            android:title="Programados" />
+        <item
+            android:id="@+id/item_p"
+            android:checkable="true"
+            android:icon="@drawable/ic_round_settings_system_daydream_24"
+            android:title="Bandeja de salida" />
+        <item
+            android:id="@+id/item_i"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_insert_drive_file_24"
+            android:title="Borradores" />
+        <item
+            android:id="@+id/item_k"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_mail_outline_24"
+            android:title="Todos" />
+        <item
+            android:id="@+id/item_l"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_report_24"
+            android:title="Spam" />
+        <item
+            android:id="@+id/item_m"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_restore_from_trash_24"
+            android:title="Papelera" />
+        </menu>
+        </item>
+        <item android:title="GOOGLE APPS">
+            <menu>
+        <item
+            android:id="@+id/item_n"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_calendar_today_24"
+            android:title="Calendar" />
+        <item
+            android:id="@+id/item_j"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="Contactos" />
+</menu>
+    </item>
+    </group>
+    <item
+        android:id="@+id/Item_o"
+        android:checkable="true"
+        android:icon="@drawable/ic_baseline_brightness_high_24"
+        android:title="Ajustes" />
+    <item
+        android:id="@+id/item_q"
+        android:checkable="true"
+        android:icon="@drawable/ic_baseline_help_outline_24"
+        android:title="Ayuda y Comentarios" />
+
+
+</menu>

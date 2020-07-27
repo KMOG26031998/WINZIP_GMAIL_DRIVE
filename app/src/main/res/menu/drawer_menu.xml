@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_blue_dark"
+        android:minHeight="?attr/actionBarSize" />
+    <group android:id="@+id/grp_Read">
+        <item
+            android:id="@+id/item_a"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_access_time_24"
+            android:title="Recent" />
+        <item
+            android:id="@+id/item_b"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_star_24"
+            android:title="Favorite" />
+   </group>
+    <group android:id="@+id/grp_Watch">
+        <item android:title="Places"
+            android:background="@android:color/holo_blue_dark"
+            >
+           <menu>
+        <item
+            android:id="@+id/item_c"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_insert_drive_file_24"
+            android:title="My Files" />
+        <item
+            android:id="@+id/item_d"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_storage_24"
+            android:title="Storage" />
+        <item
+            android:id="@+id/item_e"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_photo_size_select_actual_24"
+            android:title="Photo" />
+        <item
+            android:id="@+id/item_f"
+            android:checkable="true"
+            android:icon="@drawable/ic_sharp_music_video_24"
+            android:title="Music" />
+           </menu>
+        </item>
+    </group>
+    <group android:id="@+id/grp_Watch1">
+        <item android:title="Network y Cloud"
+            android:background="@android:color/holo_blue_dark">
+        <menu>
+        <item
+            android:id="@+id/item_g"
+            android:checkable="true"
+            android:icon="?attr/actionModeShareDrawable"
+            android:title="Network" />
+        <item
+            android:id="@+id/item_h"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_all_inbox_24"
+            android:title="Dropbox" />
+        <item
+            android:id="@+id/item_p"
+            android:checkable="true"
+            android:icon="@drawable/ic_round_settings_system_daydream_24"
+            android:title="Google Drive" />
+        </menu>
+        </item>
+    </group>
+    <group android:id="@+id/grp_Watch2">
+        <item android:title="Tool"
+            android:background="@android:color/holo_blue_dark"
+            >
+        <menu>
+        <item
+            android:id="@+id/item_i"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_layers_clear_24"
+            android:title="Clear Photo" />
+        <item
+            android:id="@+id/item_k"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_devices_24"
+            android:title="Access from PC" />
+        </menu>
+        </item>
+    </group>
+    <item android:title="Setting"
+         android:background="@android:color/holo_blue_dark"
+        >
+        <menu>
+    <item
+        android:id="@+id/item_l"
+        android:checkable="true"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="Purchase" />
+    <item
+        android:id="@+id/item_m"
+        android:checkable="true"
+        android:icon="@drawable/ic_baseline_brightness_high_24"
+        android:title="Settings" />
+    <item
+        android:id="@+id/item_n"
+        android:checkable="true"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="Exit" />
+</menu>
+    </item>
+
+</menu>

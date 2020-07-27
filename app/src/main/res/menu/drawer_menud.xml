@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp_Read">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/holo_blue_dark"
+            android:minHeight="?attr/actionBarSize" />
+    </group>
+    <group android:id="@+id/grp_Watch">
+        <item
+            android:id="@+id/item_a"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_access_time_24"
+            android:title="Recientes" />
+        <item
+            android:id="@+id/item_b"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_offline_pin_24"
+            android:title="Sin conexión" />
+        <item
+            android:id="@+id/item_c"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_restore_from_trash_24"
+            android:title="Papelera" />
+        <item
+            android:id="@+id/item_d"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_storage_24"
+            android:title="Notificaciones" />
+        <item
+            android:id="@+id/item_e"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_cloud_upload_24"
+            android:title="Copias de Seguridad" />
+        <item
+            android:id="@+id/item_f"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_brightness_high_24"
+            android:title="Ajustes" />
+        <item
+            android:id="@+id/item_g"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_help_outline_24"
+            android:title="Ayuda y comentarios" />
+
+        <item
+            android:id="@+id/item_h"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_storage_24"
+            android:title="Espacio(usado: 0 %)"
+
+            />
+
+    </group>
+</menu>
