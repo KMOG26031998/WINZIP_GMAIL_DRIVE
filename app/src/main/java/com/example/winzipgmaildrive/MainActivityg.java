@@ -51,39 +51,13 @@ public class MainActivityg extends AppCompatActivity implements NavigationView.O
     }
     @Override
     public boolean onNavigationItemSelected(  MenuItem menuItem) {
-        String itemNam=(String) menuItem.getTitle();
-        tvinfog.setText(itemNam);
 
-        closeDrawer();
         switch (menuItem.getItemId()){
             case R.id.item_a:
-                break;
-            case R.id.item_b:
-                break;
-            case R.id.item_c:
-                break;
-            case R.id.item_d:
-                break;
-            case R.id.item_f:
-                break;
-            case R.id.item_k:
-                break;
-            case R.id.item_g:
-                break;
-            case R.id.item_i:
-                break;
-            case R.id.item_h:
-                break;
-            case R.id.item_j:
-                break;
-            case R.id.item_l:
-                break;
-            case R.id.item_m:
                 break;
         }
         return true;
     }
-
     private void closeDrawer() {
         drawerLayoutg.closeDrawer(GravityCompat.START);
     }

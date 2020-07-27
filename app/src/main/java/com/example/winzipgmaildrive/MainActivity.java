@@ -12,8 +12,6 @@ import android.widget.ActionMenuView;
 import android.widget.TextView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
-
-
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
  DrawerLayout drawerLayout;
  TextView tvinfo;
@@ -45,14 +43,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         return super.onOptionsItemSelected(item);
         }
     }
-
     @Override
     public boolean onNavigationItemSelected(  MenuItem menuItem) {
-      String itemName=(String) menuItem.getTitle();
-      tvinfo.setText(itemName);
-
-      closeDrawer();
-      switch (menuItem.getItemId()){
+        switch (menuItem.getItemId()){
           case R.id.item_a:
               break;
           case R.id.item_b:

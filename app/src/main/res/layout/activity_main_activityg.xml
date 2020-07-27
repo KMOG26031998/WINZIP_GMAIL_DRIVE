@@ -7,6 +7,46 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context=".MainActivityg">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/Toolg"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_margin="4dp"
+            android:background="@drawable/my_stile"
+            android:elevation="4dp"
+            app:title="Buscar en el Correo"
+            app:titleTextColor="@android:color/darker_gray">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="150dp"
+                android:layout_marginBottom="12dp"
+                android:src="@drawable/pp"
+                app:civ_border_width="0dp" />
+        </androidx.appcompat.widget.Toolbar>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="15dp"
+            android:background="@android:color/background_light"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:src="@drawable/ic_baseline_create_24"
+            app:backgroundTint="@android:color/holo_red_dark"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -73,38 +113,12 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="154dp"
-            android:layout_marginEnd="-2dp"
+            android:layout_marginEnd="2dp"
             android:scaleType="centerCrop"
             android:src="@drawable/gg" />
 
     </RelativeLayout>
-    <androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
-
-            <androidx.appcompat.widget.Toolbar
-                android:id="@+id/Toolg"
-                android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
-                app:title="Buscar en el Correo"
-                app:titleTextColor="@android:color/darker_gray"
-                android:elevation="4dp"
-                android:background="@android:color/background_light"
-                android:layout_margin="4dp"
-               />
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/bottom"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|end"
-            android:layout_margin="15dp"
-            android:background="@android:color/background_light"
-            android:backgroundTint="@android:color/holo_red_dark"
-            android:src="@drawable/ic_baseline_create_24"
-            app:backgroundTint="@android:color/holo_red_dark">
-        </com.google.android.material.floatingactionbutton.FloatingActionButton>
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_viewg"
         android:layout_width="wrap_content"
